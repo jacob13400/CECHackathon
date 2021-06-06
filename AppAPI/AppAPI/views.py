@@ -6,6 +6,8 @@ def alspost(request):
     if int(data) == 1:
       data = "Food is being requested"
     elif int(data) == 2:
+      data = "!!EMERGENCY!!"
+    elif int(data) == 3:
       data = "Assisstance is being requested"
     print("\n\nThe Patient : \n")
     print(data)
@@ -19,6 +21,8 @@ def oldage(request):
   if int(data) == 1:
     data = "Food is being requested"
   elif int(data) == 2:
+    data = "!!EMERGENCY!!"
+  elif int(data) == 3:
     data = "Assisstance is being requested"
   print("\n\nThe Patient : \n")
   print(data)
