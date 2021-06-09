@@ -18,8 +18,6 @@ function postd(task) {
     postData('http://localhost:8000/oldage', {"data": task})
   .then()
   .catch();
-
-  alert("Hello! I am an alert box!!");
 }
 
 var button1 = document.getElementById('link1');
